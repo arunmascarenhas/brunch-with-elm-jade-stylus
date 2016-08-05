@@ -1,0 +1,56 @@
+// Useful mixins for CSS3 effects.
+@import 'nib'
+
+@import '_variables'
+@import '_mixins';
+@import '_fonts';
+
+// CSS Reset
+global-reset()
+
+body
+  font-family 'Open Sans', sans-serif
+  background-color background-color
+  color #444
+
+header
+  font-family 'Open Sans', sans-serif
+  padding 50px 10px
+  color #fff
+  font-size 45px
+  text-align center
+  background-color main-color
+  border-bottom 1px solid darken(main-color, 30%)
+  text-shadow 0px -1px 0px darken(main-color, 30%)
+
+  h1
+    font-family 'Alex Brush', cursive
+
+footer
+  margin 50px auto
+  border-top 1px dotted #ccc
+  padding-top 5px
+  font-size 13px
+
+.container
+  width 500px
+  margin 50px auto
+  overflow hidden
+
+.main-content
+  float left
+  width 300px
+
+  p
+    margin-botton 20px
+
+p
+  line-height 1.8
+
+h1
+h2
+h3
+h4
+h5
+h6
+  font-family 'Oswald', sans-serif

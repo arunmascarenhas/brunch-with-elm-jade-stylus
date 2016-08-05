@@ -1,0 +1,10 @@
+script(src='javascripts/vendor.js')
+script(src='javascripts/app.js')
+script(src='javascripts/elmmodule.js')
+script.
+  (
+    function() {
+      var node = document.getElementById("elm-module");
+      var app = Elm.ElmModule.embed(node);
+    }()
+  );
