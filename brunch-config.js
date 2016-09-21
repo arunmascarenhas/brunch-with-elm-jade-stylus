@@ -1,8 +1,5 @@
 module.exports = {
   config: {
-    paths: {
-      watched: ['app']
-    },
     files: {
       javascripts: {
         joinTo: {
@@ -44,12 +41,6 @@ module.exports = {
       },
       eslint: {
         pattern: /^app\/.*\.js?$/
-      }
-    },
-    modules: {
-      nameCleaner: (path) => {
-        path.replace(/^app\//, ''); 
-        path.replace(/^javascripts\//, ''); 
       }
     }
   }

@@ -9,6 +9,7 @@
     "url": "https://github.com/arunmascarenhas/brunch-with-elm-jade-stylus"
   },
   "scripts": {
+    "postinstall": "elm package install -y",
     "start": "brunch watch --server",
     "build": "brunch build --production"
   },
